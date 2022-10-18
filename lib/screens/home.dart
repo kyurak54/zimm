@@ -10,11 +10,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( // Button event
       appBar: AppBar(
         title: Text(widget.title),
       ),
@@ -28,9 +27,9 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton.extended(
+      floatingActionButton: FloatingActionButton.extended( // 창위에 떠있는 버튼
         onPressed: (){
-          Navigator.push(context, CupertinoPageRoute(builder: (context) => EditPage())
+          Navigator.push(context, CupertinoPageRoute(builder: (context) => const EditPage())
           );
         },
         tooltip: '메모를 추가하려면 클릭하세요',

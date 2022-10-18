@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "677776618746",
+    "project_id": "zimm-1dbd5",
+    "storage_bucket": "zimm-1dbd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677776618746:android:6a4b5b9f710052b26cc543",
+        "android_client_info": {
+          "package_name": "com.devPepe.zimm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677776618746-vce4so7ldmnorct4vbvhlrqh7478bt21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdiBNE5MVyVZuYCdx-aCek4GtztDYa3Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677776618746-vce4so7ldmnorct4vbvhlrqh7478bt21.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "677776618746-d0b4bjc1mnc4p7n8klc7ftop1ranahr3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.devPepe.zimm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
